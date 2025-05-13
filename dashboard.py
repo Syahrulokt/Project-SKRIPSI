@@ -11,17 +11,7 @@ from sklearn.metrics import silhouette_score, davies_bouldin_score
 def display_dataframe(df):
     st.write(df)
 
-# # Halaman Dashboard
-# def dashboard():
-#     st.title("Selamat datang di sistem klasterisasi UMKM di kabupaten Sidoarjo menggunakan DBSCAN berbasis perbandingan jarak")
-#     st.write("""
-#         Project ini bertujuan untuk mengelompokkan Usaha Mikro, Kecil, dan Menengah (UMKM) di Kabupaten Sidoarjo dengan 
-#         menggunakan algoritma DBSCAN, yang berbasis pada pendekatan perbandingan jarak untuk mengidentifikasi pola dan 
-#         struktur dalam data. Project ini dikembangkan oleh Mochammad Syahrul Abidin sebagai bagian dari tugas akhir yang 
-#         di bombing oleh Dr. Yeni Kustiyahningsih, S.Kom., M.Kom, dan Eza Rahmanita, S.T., M.T yang memberikan arahan dalam 
-#         pengembangan sistem dan metodologi analisis data.
-#     """)
-
+# Halaman Dashboard
 def dashboard():
     # Menampilkan judul dengan rata tengah
     st.markdown("""
